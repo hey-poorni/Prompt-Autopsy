@@ -51,17 +51,31 @@ def resimulate_conversation(borrower_messages, system_prompt):
 
     genai.configure(api_key=api_key)
     
-    # Check for available models and pick a suitable one
+    # Discovery logic: Find the best available model for this specific API key/region
     available_models = [m.name for m in genai.list_models() if 'generateContent' in m.supported_generation_methods]
-    target_model = 'models/gemini-1.5-flash'
-    if target_model not in available_models:
-        # Try to find something similar or fallback
+    
+    # List of models to try in order of preference
+    # (Prioritize 1.5/2.0 search as they usually have more stable free quotas)
+    preference = [
+        'models/gemini-1.5-flash',
+        'models/gemini-1.5-flash-latest',
+        'models/gemini-2.0-flash',
+        'models/gemini-2.0-flash-001',
+        'models/gemini-flash-latest'
+    ]
+    
+    target_model = None
+    for p in preference:
+        if p in available_models:
+            target_model = p
+            break
+            
+    if not target_model:
+        # Fallback: Just take the first available 'flash' model
         flash_models = [m for m in available_models if 'flash' in m]
-        if flash_models:
-            target_model = flash_models[0]
-        else:
-            target_model = 'models/gemini-pro' # Absolute fallback
+        target_model = flash_models[0] if flash_models else 'models/gemini-pro'
 
+    # print(f"DEBUG: Using model {target_model}")
     model = genai.GenerativeModel(target_model, system_instruction=system_prompt)
     
     chat = model.start_chat(history=[])

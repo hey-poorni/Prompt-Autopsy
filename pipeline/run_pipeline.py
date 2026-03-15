@@ -39,7 +39,13 @@ def main():
         system_prompt = f.read()
 
     # 2. Load all transcripts
-    # The load_transcripts function ensures the folder exists and filters for .txt/.md
+    # Ensure transcripts_dir is absolute relative to project root for robustness
+    if not transcripts_dir.is_absolute():
+        transcripts_dir = (_repo_root / transcripts_dir).resolve()
+
+    print(f"Resolved transcripts folder path: {transcripts_dir}")
+    
+    # Use the existing function but ensures we pass the correct absolute path
     transcripts = load_transcripts(str(transcripts_dir))
     
     if not transcripts:
@@ -48,6 +54,7 @@ def main():
         return
 
     print(f"Loaded transcripts: {len(transcripts)}")
+    print(f"Detected filenames: {', '.join(transcripts.keys())}")
     print("Starting simulation and evaluation...")
 
     results = []
