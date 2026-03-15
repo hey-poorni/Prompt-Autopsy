@@ -38,19 +38,22 @@ def main():
         system_prompt = f.read()
 
     # 2. Load all transcripts
-    # Use the existing function but ensure we pass the correct absolute path
+    # The load_transcripts function ensures the folder exists and filters for .txt/.md
     transcripts = load_transcripts(str(transcripts_dir))
+    
     if not transcripts:
-        print("No transcripts found to process.")
+        print(f"Error: No valid transcript files (.txt, .md) found in '{transcripts_dir}'.")
+        print("Please check the folder path and ensure it contains the correct files.")
         return
 
-    print(f"Loaded {len(transcripts)} transcripts. Starting simulation and evaluation...")
+    print(f"Loaded transcripts: {len(transcripts)}")
+    print("Starting simulation and evaluation...")
 
     results = []
-    total_score = 0
-    good_calls = 0
-    bad_calls = 0
-    all_issues = []
+    total_score: float = 0
+    good_calls: int = 0
+    bad_calls: int = 0
+    all_issues: list[str] = []
 
     for call_id, original_content in transcripts.items():
         print(f"Processing {call_id}...")

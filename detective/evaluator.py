@@ -6,23 +6,35 @@ import glob
 
 def load_transcripts(transcripts_dir="transcripts"):
     """
-    Loads all transcript text files from the specified directory.
+    Loads all transcript files (.txt or .md) from the specified directory.
     Returns a dictionary mapping the filename (without extension) to its content.
     """
+    if not os.path.exists(transcripts_dir):
+        print(f"Error: The directory '{transcripts_dir}' does not exist.")
+        return {}
+        
+    if not os.path.isdir(transcripts_dir):
+        print(f"Error: '{transcripts_dir}' is not a directory.")
+        return {}
+
     transcripts = {}
+    extensions = {".txt", ".md"}
     
     file_pattern = os.path.join(transcripts_dir, "*")
     for filepath in glob.glob(file_pattern):
         if os.path.isfile(filepath):
             filename = os.path.basename(filepath)
-            name_without_ext, _ = os.path.splitext(filename)
+            name_without_ext, ext = os.path.splitext(filename)
             
-            # Skip hidden files like .gitkeep
-            if filename.startswith('.'):
+            # Skip hidden files and filter by extension
+            if filename.startswith('.') or ext.lower() not in extensions:
                 continue
                 
-            with open(filepath, 'r', encoding='utf-8') as f:
-                transcripts[name_without_ext] = f.read()
+            try:
+                with open(filepath, 'r', encoding='utf-8') as f:
+                    transcripts[name_without_ext] = f.read()
+            except Exception as e:
+                print(f"Warning: Could not read file {filepath}: {e}")
                 
     return transcripts
 
