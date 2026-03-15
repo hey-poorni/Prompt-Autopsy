@@ -2,15 +2,15 @@ import os
 import sys
 import json
 import glob
-import google.generativeai as genai
 from pathlib import Path
+import google.generativeai as genai # type: ignore
 
 # Add project root to sys.path to allow imports from detective
-repo_root = Path(__file__).parent.parent
-if str(repo_root) not in sys.path:
-    sys.path.insert(0, str(repo_root))
+_repo_root = Path(__file__).parent.parent
+if str(_repo_root) not in sys.path:
+    sys.path.insert(0, str(_repo_root))
 
-from detective.evaluator import load_transcripts  # type: ignore
+from detective.evaluator import load_transcripts # type: ignore
 
 def load_improved_prompt(prompt_path="system-prompt-fixed.md"):
     """Loads the improved system prompt from the markdown file."""
@@ -71,20 +71,20 @@ def resimulate_conversation(borrower_messages, system_prompt):
     try:
         response = chat.send_message("Please start the call.")
         agent_msg = response.text.strip()
-        simulated_transcript.append(f"Agent: {agent_msg}")
+        simulated_transcript.append(str(f"Agent: {agent_msg}"))
     except Exception as e:
         return f"ERROR during initial agent response with {target_model}: {e}"
 
 
     # 2. Sequential turns
     for borrower_msg in borrower_messages:
-        simulated_transcript.append(f"Borrower: {borrower_msg}")
+        simulated_transcript.append(str(f"Borrower: {borrower_msg}"))
         try:
             response = chat.send_message(borrower_msg)
             agent_msg = response.text.strip()
-            simulated_transcript.append(f"Agent: {agent_msg}")
+            simulated_transcript.append(str(f"Agent: {agent_msg}"))
         except Exception as e:
-            simulated_transcript.append(f"ERROR during agent response to '{borrower_msg}': {e}")
+            simulated_transcript.append(str(f"ERROR during agent response to '{borrower_msg}': {e}"))
             break
             
     return "\n".join(simulated_transcript)
