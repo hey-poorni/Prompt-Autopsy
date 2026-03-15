@@ -33,10 +33,21 @@ def resimulate_conversation(borrower_messages, system_prompt):
     The agent follows the system prompt and responds to sequential borrower messages.
     """
     # Configure Generative AI
-    # Ensure GOOGLE_API_KEY environment variable is set
+    # Try to load API key from environment or .env file
     api_key = os.getenv("GOOGLE_API_KEY")
+    
     if not api_key:
-        return "ERROR: GOOGLE_API_KEY not found in environment variables."
+        # Fallback: Check for .env file manually
+        env_path = Path(__file__).parent.parent / ".env"
+        if env_path.exists():
+            with open(env_path, "r") as f:
+                for line in f:
+                    if line.startswith("GOOGLE_API_KEY="):
+                        api_key = line.split("=", 1)[1].strip().strip('"').strip("'")
+                        break
+
+    if not api_key:
+        return "ERROR: GOOGLE_API_KEY not found in environment variables or .env file."
 
     genai.configure(api_key=api_key)
     model = genai.GenerativeModel('gemini-1.5-flash', system_instruction=system_prompt)
