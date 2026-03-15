@@ -111,6 +111,6 @@ Full report saved to: results\pipeline_report.json
 ```
 
 ## 10. Author
-**Your Name**  
+**Shri Poornima Alagarsamy**  
 *AI/ML Engineer | Prompt Engineer*  
 Passionate about building safe, effective, and highly controllable AI agents to solve complex human-in-the-loop problems.
