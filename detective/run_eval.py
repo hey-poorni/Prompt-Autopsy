@@ -12,8 +12,12 @@ from detective.evaluator import load_transcripts, evaluate_transcript
 
 def main():
     # Setup path relative to the script location assuming it's run from repo root
-    transcripts_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "transcripts")
-    results_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "results")
+    # Use abspath to reliably find the project root whether run from inside `detective/` or from repo root
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    repo_root = os.path.dirname(script_dir)
+    
+    transcripts_dir = os.path.join(repo_root, "transcripts")
+    results_dir = os.path.join(repo_root, "results")
     
     transcripts = load_transcripts(transcripts_dir)
     results = {}

@@ -1,0 +1,17 @@
+Agent: Hello, this is Alex from DemoCompany, calling about your DemoLender loan. There are some charges on your account I can help remove. Can we talk for a moment?
+Agent: Hello, this is Alex from DemoCompany, calling about your DemoLender loan. There are some charges on your account I can help remove. Can we talk for a moment? Hello?
+Borrower: Hello? Hi, Harry.
+Agent: Hello?
+Borrower: Hello?
+Agent: Hello?
+Borrower: Hello, Evan.
+Agent: Okay, give me just a moment...
+Agent: Hello?
+Borrower: Hello?
+Agent: Are you still there?
+Agent: Hello?
+Borrower: Hello? No, sir.
+Agent: I see. Suresh Rao, I'm calling about your DemoLender education loan. We're showing a pending amount of fifty thousand rupees. Can you tell me a little about why you haven't been able to make the payments?
+Agent: Hello?
+Borrower: Arthur.
+Agent: Okay, I understand. It seems I have reached the wrong person. I will go ahead and end this call.

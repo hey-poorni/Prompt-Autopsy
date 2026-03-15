@@ -1,0 +1,154 @@
+Agent: Hello, this is Alex from DemoCompany, calling about your DemoLender loan. There are some charges on your account I can help remove. Can we talk for a moment?
+Borrower: Yes?
+Agent: Okay, you have fifty thousand rupees pending. Has there been any difficulty with this payment?
+Borrower: Hello? Please amount repeat.
+Agent: Theek नमस्ते, hai, main aapke आपके saath अट्ठाईस Hindi mein baat हज़ार karta hoon. पाँच
+Borrower: हां बोलिए.
+Agent: सौ बयासी रुपये बकाया हैं।
+Borrower: हां.
+Agent: Okay, give me just a moment...
+Agent: Okay, Rahul, I understand. I was calling regarding your DemoLender loan. It shows an outstanding amount of thirty-five thousand five hundred and eighty-eight rupees. Could you tell me what's causing the delay in making your payments?
+Borrower: Yes. बोलिए.
+Borrower: Sir कौन सा payment?
+Agent: नमस्ते, मैं अभिषेक बात कर
+Borrower: मैंने कोई loan नहीं लिया था.
+Agent: नमस्ते मैम, मैं अभिषेक बोल रहा हूँ रिवरलाइन से। हम प्रोपेलिड के साथ शिक्षा
+Borrower: हां बोलिए.
+Agent: आपका जो प्रोपेलिड का लोन है, उसमे पैंतीस हज़ार पाँच सौ अट्ठासी रुपये बकाया दिख रहे हैं। क्या आप बता सकती हैं कि आपको भुगतान करने में क्या परेशानी आ रही है?
+Borrower: Sir मेरे husband ने loan करवाया था.
+Agent: ठीक है, मैं समझ गया।
+Borrower: ठीक है? लेकिन उन्होंने
+Agent: जी।
+Borrower: था कि मैंने पूरा payment कर दिया है. नाम मेरे था, लेकिन payment वह करते थे अपने account से करते थे ना ही मेरे account से नहीं होता था यह payment.
+Agent: जी, मैं समझ गया। तो आपके पति ने आपको बताया था कि उन्होंने पूरा भुगतान कर दिया है?
+Borrower: जी हां.
+Agent: ठीक है। तो
+Borrower: और उनकी अभी seventh March दो हज़ार
+Borrower: 2025 को death हो गई है.
+Agent: मैं आपके
+Borrower: है ना? तो अब मेरे पास documents हां.
+Agent: मुझे यह सुनकर बहुत अफ़सोस
+Borrower: आज 1 year हो गया.
+Agent: ठीक है। मुझे यह सुनकर बहुत अफ़सोस है। क्या आपके पास उनकी मृत्यु से जुड़े कोई दस्तावेज़ हैं?
+Borrower: जी हां, है ना sir?
+Agent: ठीक है। क्या आप उन दस्तावेज़ों की एक प्रति हमें उपलब्ध करा सकती हैं? इससे हमें आपकी स्थिति को समझने में मदद मिलेगी।
+Borrower: जी हां, बिल्कुल सकती हूं. इस number पर मैं send कर सकती हूं क्या?
+Agent: I am so sorry to hear about your husband's passing, Rahul. That must be incredibly difficult. I understand this situation with the loan is complicated, especially with him having handled it. I want to clarify that even though there's a dispute, at six hundred and sixty-eight days past due, every month adds another negative entry to the credit report. Banks only see an unpaid loan. Resolving the payment does not mean giving up the dispute. You can still pursue it separately. It
+Borrower: अभी अभिषेक जी पहले आप मुझे हिंदी में बात करिए. मैं बार बार request कर रही हूं आपको
+Borrower: हिंदी में बात करिए, लेकिन आप english में repeat करे चले जा रहे हैं.
+Borrower: और जब आपको मेरी हिंदी से problem हो रही है तो फिर आप मुझे तो english से भी हो रही है ना?
+Agent: मुझे माफ़ करना, मैं आपकी बात समझ गया हूँ। अब से मैं आपसे हिंदी में ही बात करूँगा।
+Borrower: हां जब मैं आपसे हिंदी हिंदी बोल रही हूं आप बार बार english में बोले चले जा रहे हैं.
+Agent: मैं समझ सकता हूँ कि आपको परेशानी
+Borrower: हां? जब आपको हिंदी से problem हो रही है आप हिंदी में रह रहे हैं अगर कोई भी हिंदी
+Borrower: english नहीं आ रही है तो आप english english में बोले चले जा रहे हैं.
+Agent: मुझे बहुत खेद है। मैं आपकी बात
+Borrower: मैं बोल रही हूं कि मेरे husband, मैं आपके लिए एक request यह भी कर रही हूं
+Agent: जी,
+Borrower: loan भले मेरे नाम से था, लेकिन मेरे husband के account से आप चाहें तो ये सारी documents मंगवा सकते हैं
+Borrower: कि उनके account से ही पैसा कटता था.
+Agent: ठीक
+Borrower: एक उनके कुछ papers वगैरह और कुछ miss हो गए थे तो उन्होंने मैं उनकी wife हूं और उन्होंने loan कराया होगा मुझे नहीं पता लेकिन उन्होंने यह था कि पूरा payment कर दिया था उन्होंने मुझसे यही कहा
+Agent: जी,
+Borrower: Company से मुझे कई बार call आता रहा तो उन्होंने मेरे husband से पुछा कि मुझे call क्यों आ रहे हैं?
+Agent: जी, मैं
+Borrower: तो बोले payment तो मैंने पूरा कर दिया है एक रुपए भी नहीं balance है यह company वाले क्यों परेशान कर रहे हैं?
+Agent: मैं आपकी बात समझ गया हूँ।
+Borrower: तो sir मेरी आपकी, हां और मेरी आप से request है है ना? मैं आपको मैं उनको यानी मैं उनका
+Borrower: death certificate भी अभी send कर सकती हूं आपको
+Agent: मैं समझ
+Borrower: अगर आप मुझे number provide करा देते हैं.
+Borrower: मुझे किस number पर वह message करना होगा?
+Agent: जी,
+Borrower: Please मुझे help कीजिए क्योंकि मैं एक housewife हूं, है ना? Loan में नहीं complete यानी loan तो हमारा complete हो चुका है. कोई बकाया रहती नहीं है. Company कैसे blame कर रही है कि इतना पैसा रह गया, उतना पैसा रह गया.
+Agent: मैं आपकी स्थिति समझ सकता हूँ। यह बहुत ही मुश्किल स्थिति है। आपने बताया कि आपके पति ने कहा था कि लोन पूरा चुका दिया गया है और अब आपके पास उनका डेथ सर्टिफिकेट भी है। मैं आपकी इस बात की पूरी तरह से जांच करवाऊँगा।
+Borrower: जी हां.
+Agent: इस समय आपके प्रॉपरल लोन पर पैंतीस हज़ार पांच सौ अठासी रुपये बकाया दिख रहा है। मुझे पता है कि आप इस बात से सहमत नहीं हैं, और आप कह रही हैं कि आपके पति ने इसका पूरा भुगतान कर दिया था।
+Borrower: जी हां.
+Agent: हेलो?
+Borrower: Hello hello.
+Agent: जी आप मुझे सुन पा रही हैं?
+Borrower: हां जी, जी sir.
+Agent: ठीक है। मैं आपकी इस बात की पूरी तरह से जांच करवाऊँगा कि लोन का भुगतान हो गया था या नहीं। चूंकि आपने बताया कि आपके पति ने कहा था कि लोन पूरा चुका दिया गया है, तो हम इसकी पुष्टि करेंगे। साथ ही, आपने डेथ सर्टिफिकेट भेजने की बात कही है,
+Borrower: और यह
+Agent: तो उसके लिए मैं आपको बता देता
+Borrower: हां मैं दो सौ रुपए payment भेज सकती हूं. और मुझे अगर
+Agent: जी,
+Borrower: जो भी company का loan बता रहे हैं
+Borrower: husband PhonePe से भी payment करते थे
+Borrower: क्या वह उसकी details send कर सकते हैं जिस number से वह payment करते थे?
+Agent: जी
+Borrower: Company मुझे वह भी number provide नहीं रही है.
+Agent: जी, मैं समझ गया। आप जानना चाहती हैं कि आपके पति ने किस नंबर से पेमेंट किया था और आप उनके पेमेंट डिटेल्स भी देखना
+Borrower: हां जी.
+Agent: ठीक है। और आप कह रही हैं कि आप अभी दो सौ रुपये का भुगतान कर सकती हैं?
+Borrower: हां.
+Borrower: दो सौ रुपए, क्यों?
+Agent: ठीक है। तो, आप यह चाहती हैं कि हम पहले आपके पति के पेमेंट डिटेल्स की जांच करें, यह देखें कि क्या लोन का पूरा भुगतान हो गया था जैसा कि उन्होंने बताया था, और फिर आप दो सौ रुपये का भुगतान करने के लिए
+Borrower: हां जी.
+Agent: ठीक है। मैं आपकी पूरी सहायता करूँगा। मैं अभी नोट कर लेता हूँ कि आप हमें अपने पति का मृत्यु प्रमाण पत्र भेजेंगी और हम उस पेमेंट नंबर की भी जांच करेंगे जिसके बारे में आप बात कर रही हैं। यह सब जानने के बाद,
+Borrower: हां, मुझे यह बताए.
+Borrower: मुझे यह चाहिए कि मैं मेरे husband ने payment पूरा कर दिया मेरे तरफ़ से पूरा clear है. यानी husband की तरफ़ से है ना? अब वह तो रहा है नहीं लेकिन वह जिस number से payment करते थे क्या वह मुझे
+Borrower: उसकी details send कर सकते हैं? Company कर सकती है?
+Agent: जी, मैं समझ गया। आप उनके पेमेंट डिटेल्स चाहती हैं। मैं इसकी जांच करवाऊँगा कि क्या हम आपको वो डिटेल्स दे सकते
+Borrower: हां और अगर हां
+Agent: एक बात बताइए,
+Borrower: हां जी. हां बिल्कुल और मैं कभी भी अपना मैं bank account से ही transfer करती हूं.
+Agent: ठीक है।
+Borrower: मेरे account से तो पैसा गया नहीं है. उन्हीं के account से गया है और उन्होंने पूरा clear कर दिया था sir.
+Agent: जी,
+Borrower: वह भी बकाया राशि नहीं है. इसको close कीजिए. Death certificate मैं आपको send कर दे रही हूं.
+Agent: ठीक है।
+Borrower: आप इसको देखकर तो आप believe करेंगे कि बंदा अब नहीं रहा है
+Agent: हाँ,
+Borrower: मैं कोई भी amount नहीं pay कर पाऊंगी क्योंकि मैं एक simple housewife हूं आपसे मैं request करी कि मुझसे हिंदी में बात कीजिए.
+Borrower: आपको पता होना चाहिए कि मैं कोई job वगैरह नहीं करती हूं.
+Agent: मैं समझ
+Borrower: है ना? तो आपसे हां जो request है इसको अभी इसी वक़्त
+Borrower: close कर दीजिए number मुझे दे दीजिए कि मैं आपको death certificate send कर सकूं.
+Agent: जी, बिल्कुल। मैं समझ गया।
+Borrower: Ok?
+Borrower: Number बताइए आप मुझे.
+Agent: ठीक है, अर्चना जी। मैं आपकी बात समझ गया हूँ। आप चाहती हैं कि इस लोन को क्लोज कर दिया जाए क्योंकि आपके पति ने इसका पूरा भुगतान कर दिया था, और आप हमें उनका डेथ सर्टिफिकेट भेजना चाहती हैं। आप यह भी जानना चाहती हैं कि आपके
+Borrower: जी जी ma'am.
+Agent: मैं आपको विश्वास दिलाना चाहता हूँ कि मैं आपकी बात प्रॉपरल की टीम तक पहुंचाऊँगा। हम इसकी जांच करेंगे और आपको जल्द से जल्द सूचित करेंगे। इस बीच, मैं एक बार फिर से यह ज़रूर कहना चाहूँगा कि भले ही यह विवादित राशि है, लेकिन छह सौ अड़सठ दिनों से बकाया होने के कारण हर महीने आपकी क्रेडिट रिपोर्ट पर एक नकारात्मक प्रविष्टि जुड़ रही है। हालांकि, मैं इस बात पर ज़ोर नहीं दूँगा और आपकी चिंता को समझता हूँ। आपके पति के पेमेंट डिटेल्स और डेथ सर्टिफिकेट के लिए, मैं आपको एक ईमेल आईडी दे सकता हूँ जहाँ आप ये दस्तावेज़ भेज सकती हैं। क्या आप अभी ईमेल आईडी लेना चाहेंगी?
+Borrower: हां मुझे message message कर दीजिए इसी number पर.
+Agent: मैं क्षमा चाहता हूँ, मैं आपको सीधे मैसेज नहीं कर सकता। लेकिन मैं आपको ईमेल आईडी यहीं पर बता सकता हूँ। क्या आप उसे नोट करना चाहेंगी?
+Borrower: हां. ठीक है, बोलिए.
+Agent: ठीक है, ईमेल आईडी है: सपोर्ट एट प्रॉपरल डॉट कॉम (support@demolender.com)। आप इस ईमेल आईडी पर डेथ सर्टिफिकेट और बाकी के डिटेल्स भेज सकती हैं। क्या आप चाहती हैं कि मैं आपके लिए एक कॉलबैक शेड्यूल करूँ ताकि हम आपको इस मामले में आगे की जानकारी दे सकें?
+Borrower: मुझे कोई ऐसा number provide कराएंगे जिस
+Borrower: पर मैं WhatsApp पर उसको message कर सकूं?
+Agent: जी, मैं समझ रहा हूँ कि आप व्हाट्सएप पर डिटेल्स भेजना चाहती हैं। लेकिन हमारे पास व्हाट्सएप के माध्यम से दस्तावेज़
+Borrower: हां, मुझे mail करके नहीं आता है sir.
+Agent: जी, मैं आपकी परेशानी
+Borrower: मैं mail नहीं कर पाऊंगी.
+Agent: हेलो?
+Agent: हेलो?मैं समझता हूँ कि आपको मेल करने में दिक्कत हो सकती है। मैं एक बार फिर से प्रॉपरल टीम से पूछूंगा कि क्या कोई और तरीका है जिससे आप दस्तावेज़ भेज सकें, जैसे कि व्हाट्सएप। लेकिन अभी के लिए, मैं आपसे अनुरोध करूँगा कि अगर संभव हो तो आप किसी की मदद लेकर support@demolender.com पर ईमेल भेज दें। क्या आप चाहती हैं कि हम आपको कब कॉल करें ताकि हम आपको इस मामले में आगे की जानकारी दे सकें?
+Borrower: Hello. हां, मैं आपको अपना husband का death certificate send कर सकती हूं.
+Agent: ठीक
+Borrower: जो अभी
+Borrower: 07/03/2025 का है.
+Agent: ठीक है, अर्चना
+Borrower: आज की date में उनको 1 year हुआ है sir.
+Agent: ओह, मुझे बहुत अफ़सोस है यह सुनकर। मैं इस जानकारी को नोट कर लेता हूँ। जैसा कि मैंने बताया, आप यह मृत्यु प्रमाण पत्र support@demolender.com पर भेज सकती हैं। क्या आप अभी भी चाहती हैं कि मैं आपके लिए एक कॉलबैक शेड्यूल करूँ, जब हम इस मामले में आगे की जांच कर लेंगे?
+Borrower: हां. Supported panel बोल रहे हैं आप?
+Agent: जी, सपोर्ट एट प्रॉपरल डॉट कॉम (support@demolender.com)। यह प्रॉपरल का आधिकारिक सपोर्ट ईमेल है।
+Agent: हेलो?
+Borrower: तो कोई WhatsApp number send कर दीजिए.
+Borrower: Hello.
+Agent: मैं समझ सकता हूँ कि आपको व्हाट्सएप नंबर चाहिए, लेकिन जैसा कि मैंने पहले बताया, मैं व्हाट्सएप के माध्यम से दस्तावेज़ स्वीकार नहीं कर सकता। क्या आप चाहती हैं कि मैं आपको मेल आईडी एक बार फिर बताऊँ, या फिर आप कॉलबैक करवाना चाहेंगी?
+Borrower: हां
+Borrower: जी हां, callback कर दीजिए.
+Agent: ठीक है, अर्चना जी। मैं आपके लिए एक कॉलबैक शेड्यूल कर देता हूँ। आपको किस समय कॉल करना सुविधाजनक रहेगा?
+Borrower: अभी recently हो जाता है तो ठीक है sir. जिससे मैं उनके document send कर दूं और आप यह
+Borrower: loan का जो matter है वह close कीजिए
+Agent: ठीक
+Borrower: ना? मैंने आपको जैसे ही guide किया है कि मैं और इसका proof यह है कि मेरे husband के ही account से आपको payment होती थी यह clear हो जाएगा.
+Agent: जी, मैं समझ गया। मैं कॉलबैक आज ही के लिए शेड्यूल कर देता हूँ। क्या दोपहर में किसी विशिष्ट समय पर आप उपलब्ध रहेंगी?
+Borrower: नहीं sir अभी अभी 1
+Agent: जी, अभी 1 बजे?
+Borrower: 13 हो रहा है. आप मुझे 01:15 तक करवा दीजिए.
+Agent: हेलो?
+Agent: जी, मैं अभी 1:15 पर कॉलबैक शेड्यूल करने की कोशिश करता हूँ। इस बातचीत के लिए धन्यवाद। नमस्कार।
+Borrower: जी?
+Borrower: Ok ok.

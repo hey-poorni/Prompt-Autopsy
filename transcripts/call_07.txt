@@ -1,0 +1,59 @@
+Agent: Hello, this is Alex from DemoCompany, calling about your DemoLender loan. There are some charges on your account I can help remove. Can we talk for a moment?
+Agent: Hello, this is Alex from DemoCompany, calling about your DemoLender loan. There are some charges on your account I can help remove. Can we talk for a moment? Hello?
+Agent: Are you there?
+Borrower: Hello?
+Agent: Okay, give me just a moment...
+Borrower: Hello? Hello, sir?
+Agent: Hello? Hello, sir? Yes, I can hear you.
+Borrower: Sir, can I connect to the?
+Borrower: Anyone is available?
+Agent: I am Alex from DemoCompany, and I'm calling regarding your DemoLender loan. We have fifty-five thousand three hundred and thirty-five rupees pending on the account.
+Borrower: 21?
+Agent: I'm sorry, I didn't catch that. Could you please repeat it?
+Borrower: Hello?
+Agent: Hello?
+Agent: Hello? Can you hear me?
+Borrower: Hello? Forget. You repeat again?
+Agent: I'm calling about your DemoLender loan. There's an outstanding amount of fifty-five thousand three hundred and thirty-five rupees.
+Borrower: Okay, sir. Sir, let's say I'm explained. Let's connect the call as well. Anyone available?
+Agent: I am Alex from DemoCompany, and I'm calling about your DemoLender loan. There's fifty-five thousand three hundred and thirty-five rupees pending.
+Borrower: I'm understanding, sir.
+Borrower: You know something?
+Agent: Yes, I understand. I'm calling about your DemoLender loan, and there's a pending amount of fifty-five thousand three hundred and thirty-five rupees.
+Borrower: Okay, sir.
+Agent: Right. So, regarding the fifty-five thousand three hundred and thirty-five rupees, have you been facing any difficulties with the payments?
+Borrower: Sir, can you understand?
+Agent: Yes, I understand. I am calling about your DemoLender loan, and there's a pending amount of fifty-five thousand
+Borrower: Okay, sir.
+Borrower: Then
+Borrower: do you know Tamil?
+Borrower: Hello?
+Agent: Sari, naan ungaloda Tamil la pesuren.
+Agent: Ungaluku ezhudhiya irukumna, naan Tamil la pesuren.
+Borrower: Hello? உம் ஆனது கப்பல் வந்து என குவில வந்து ஒரு கொஞ்சநாள் போனது கப்பல்மே என குவிலுக்கு இது சாப்பாடு படம அடியறாங்க. ஆனால், அங்குள்ளோர் ஒங்கிலாராக கடித்திருந்தன. ஒரு டிமான்சு, புவிலென்று சாப்பாடு வாகன அல்லது கேட்பனுகிட்டிருந்தன.
+Agent: I see. நீங்க கேட்குறது எனக்குப் புரியுது.
+Borrower: பல கொஜனால் செலுத்துப்பதென என குவிலர்தே இருக்கிறது. ரிச்ம்ந்து ஒருமட்டனது
+Borrower: .000 .000
+Agent: மன்னிக்கவும். நீங்க என்ன சொல்றீங்கன்னு எனக்குப் புரியலை. நீங்க "பல கொஜனால் செலுத்துப்பதென என குவிலர்தே இருக்கிறது" அப்படின்னு சொன்னது தெளிவா இல்லை. தயவுசெய்து மறுபடியும் சொல்ல முடியுமா?
+Borrower: நமது அப்படி தனியாக தான் செய்து செய்யப்படீங்களா?
+Agent: இல்ல, நீங்க கேட்டது எனக்கு புரியல. தயவுசெய்து மறுபடியும் தெளிவா சொல்ல முடியுமா?
+Borrower: ஹலோ?
+Agent: சொல்லுங்க.
+Borrower: அப்போ இருக்க மோதே, எனகொது புவில சபோற்பா. அன்னமற்ற்றாங்க.
+Agent: மன்னிக்கவும்,
+Borrower: எந்த நெல்புமே பண்ணமற்றறாங்க.
+Agent: மன்னிக்கவும். நீங்க என்ன சொல்றீங்கன்னு
+Borrower: அப்படீன்னா போது எனக்கு உங்க செயல்லந்து ரிஸப்ஷன.
+Borrower: ம்.
+Agent: சாரி, எனக்குப் புரியல. நீங்க எதைப்பத்தி பேசறீங்க?
+Borrower: நலோன் வாயில்களாக, எடுத்த ரண்முக.
+Agent: ஓ, சரி. லோனைப் பத்திதான் நான் பேசிக்கிட்டு இருக்கேன். உங்க DemoLender லோன்ல ஐம்பத்து ஐந்தாயிரத்து முன்னூற்று முப்பத்தி ஐந்து ரூபாய் பாக்கி இருக்கு.
+Borrower: ரன்யிலே அமைச்சர அந்த லோன்யாயிருக்கவா வாங்கிருக்க,
+Agent: ஆமா. DemoLender லோனைப் பத்திதான் பேசறேன்.
+Borrower: ந... ந.தரோன் எடுக்கா வாங்கிரியின் சொல்லுக.
+Agent: மன்னிக்கவும். நீங்க என்ன சொல்றீங்கன்னு எனக்குப் புரியல. கொஞ்சம் தெளிவா சொல்ல முடியுமா?
+Borrower: பலர்
+Agent: நீங்க
+Borrower: நோtாங்கிருகேன் சுடைங் இல்ல.
+Borrower: சுடைங்
+Agent: நீங்கள் DemoLender கடனைப் பற்றி பேசுகிறீர்கள் என்று நான் நினைக்கிறேன். அந்தக் கடனில் ஐம்பத்து ஐந்தாயிரத்து முன்னூற்று முப்பத்தி ஐந்து ரூபாய் இன்னும் பாக்கி இருக்கிறது. இதைச்

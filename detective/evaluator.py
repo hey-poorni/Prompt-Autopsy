@@ -119,15 +119,20 @@ def evaluate_transcript(transcript):
         bad_score = 0
         reasons = []
         
-        if any(w in line_lower for w in aggressive_keywords):
+        import re
+        # Remove punctuation from the line for clean word boundary matching
+        line_clean = re.sub(r'[^\w\s]', '', line_lower)
+        line_padded = f" {line_clean} "
+        
+        if any(f" {w} " in line_padded for w in aggressive_keywords):
             bad_score += 3
             reasons.append("aggressive or threatening tone")
             
-        if any(w in line_lower for w in rude_keywords):
+        if any(f" {w} " in line_padded for w in rude_keywords):
             bad_score += 3
             reasons.append("disrespectful language")
             
-        if any(w in line_lower for w in inflexible_keywords):
+        if any(f" {w} " in line_padded for w in inflexible_keywords):
             bad_score += 2
             reasons.append("inflexible or demanding")
             
