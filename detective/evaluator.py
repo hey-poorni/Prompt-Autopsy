@@ -43,10 +43,14 @@ def evaluate_transcript(transcript):
     transcript_lower = transcript.lower()
     
     # Extract only the Agent's lines to avoid scoring based on the Borrower's words
-    agent_lines = [
-        str(line.split("Agent:", 1)[1].strip())
+    agent_lines_original = [
+        line.strip()
         for line in transcript.split('\n') 
         if line.startswith("Agent:")
+    ]
+    agent_lines = [
+        str(line.split("Agent:", 1)[1].strip())
+        for line in agent_lines_original
     ]
     agent_text = " ".join(agent_lines).lower()
     
@@ -54,7 +58,8 @@ def evaluate_transcript(transcript):
         return {
             "score": 0,
             "issues": ["No Agent lines found in the transcript."],
-            "verdict": "bad"
+            "verdict": "bad",
+            "worst_messages": []
         }
 
     # 1. Empathy (20 points): Agent acknowledges borrower problems.
@@ -98,11 +103,53 @@ def evaluate_transcript(transcript):
         score += 20
     else:
         issues.append("Agent did not end the conversation politely.")
+        
+    # Analyze individual lines for bad behavior to find worst messages
+    evaluated_messages = []
+    
+    # Define negative patterns
+    aggressive_keywords = ["police", "arrest", "sue", "legal action", "lawsuit", "must pay now", "immediately", "court", "demand"]
+    rude_keywords = ["don't care", "your problem", "shut up", "idiot", "not listening", "excuses", "nonsense", "liar"]
+    inflexible_keywords = ["no other way", "only option", "pay in full", "refuse to", "unacceptable", "no choice", "can't help"]
+    
+    for i in range(len(agent_lines_original)):
+        orig_line = agent_lines_original[i]
+        line_lower = orig_line.lower()
+        
+        bad_score = 0
+        reasons = []
+        
+        if any(w in line_lower for w in aggressive_keywords):
+            bad_score += 3
+            reasons.append("aggressive or threatening tone")
+            
+        if any(w in line_lower for w in rude_keywords):
+            bad_score += 3
+            reasons.append("disrespectful language")
+            
+        if any(w in line_lower for w in inflexible_keywords):
+            bad_score += 2
+            reasons.append("inflexible or demanding")
+            
+        if bad_score > 0:
+            evaluated_messages.append({
+                "message": orig_line,
+                "reason": " and ".join(reasons),
+                "bad_score": bad_score
+            })
+            
+    # Sort by bad_score descending and pick top 3
+    evaluated_messages.sort(key=lambda x: x["bad_score"], reverse=True)
+    worst_messages = [
+        {"message": str(msg["message"]), "reason": str(msg["reason"])} 
+        for i, msg in enumerate(evaluated_messages) if i < 3
+    ]
 
     verdict = "good" if score >= 80 else "bad"
 
     return {
         "score": score,
         "issues": issues,
-        "verdict": verdict
+        "verdict": verdict,
+        "worst_messages": worst_messages
     }
