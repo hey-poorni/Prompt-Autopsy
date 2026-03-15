@@ -50,7 +50,19 @@ def resimulate_conversation(borrower_messages, system_prompt):
         return "ERROR: GOOGLE_API_KEY not found in environment variables or .env file."
 
     genai.configure(api_key=api_key)
-    model = genai.GenerativeModel('gemini-1.5-flash', system_instruction=system_prompt)
+    
+    # Check for available models and pick a suitable one
+    available_models = [m.name for m in genai.list_models() if 'generateContent' in m.supported_generation_methods]
+    target_model = 'models/gemini-1.5-flash'
+    if target_model not in available_models:
+        # Try to find something similar or fallback
+        flash_models = [m for m in available_models if 'flash' in m]
+        if flash_models:
+            target_model = flash_models[0]
+        else:
+            target_model = 'models/gemini-pro' # Absolute fallback
+
+    model = genai.GenerativeModel(target_model, system_instruction=system_prompt)
     
     chat = model.start_chat(history=[])
     simulated_transcript = []
@@ -61,7 +73,8 @@ def resimulate_conversation(borrower_messages, system_prompt):
         agent_msg = response.text.strip()
         simulated_transcript.append(f"Agent: {agent_msg}")
     except Exception as e:
-        return f"ERROR during initial agent response: {e}"
+        return f"ERROR during initial agent response with {target_model}: {e}"
+
 
     # 2. Sequential turns
     for borrower_msg in borrower_messages:
