@@ -158,3 +158,34 @@ def evaluate_transcript(transcript):
         "verdict": verdict,
         "worst_messages": worst_messages
     }
+
+def compare_verdicts(predicted_verdicts, verdicts_file="verdicts.json"):
+    """
+    Compares predicted verdicts with actual verdicts stored in the provided json file.
+    
+    returns: accuracy, correct_predictions, total_calls
+    """
+    import json
+    
+    try:
+        with open(verdicts_file, 'r', encoding='utf-8') as f:
+            file_data = json.load(f)
+            actual_verdicts = file_data.get("verdicts", {})
+    except Exception as e:
+        print(f"Error loading {verdicts_file}: {e}")
+        return 0, 0, 0
+        
+    correct_predictions = 0
+    total_calls = 0
+    
+    for call_id, actual_data in actual_verdicts.items():
+        actual_verdict = actual_data.get("verdict") if isinstance(actual_data, dict) else actual_data
+        
+        if call_id in predicted_verdicts:
+            total_calls += 1
+            if predicted_verdicts[call_id] == actual_verdict:
+                correct_predictions += 1
+                
+    accuracy = correct_predictions / total_calls if total_calls > 0 else 0
+    
+    return accuracy, correct_predictions, total_calls
