@@ -14,6 +14,7 @@ if str(_repo_root) not in sys.path:
 # Import existing logic
 from detective.evaluator import load_transcripts, evaluate_transcript # type: ignore
 from surgeon.resimulate import extract_borrower_messages, resimulate_conversation # type: ignore
+from pipeline.prompt_improver import build_improvements_report # type: ignore
 
 def main():
     parser = argparse.ArgumentParser(description="AI Prompt Evaluation Pipeline")
@@ -120,6 +121,13 @@ def main():
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(report, f, indent=4)
 
+    # 7. Generate and save prompt improvement suggestions
+    improvements_path = output_path.parent / "prompt_improvements.md"
+    print("\nGenerating prompt improvement suggestions...")
+    improvements_report, ranked_issues = build_improvements_report(system_prompt, results)
+    with open(improvements_path, "w", encoding="utf-8") as f:
+        f.write(improvements_report)
+
     print("\n" + "="*30)
     print("PIPELINE SUMMARY REPORT")
     print("="*30)
@@ -129,6 +137,14 @@ def main():
     print(f"Bad Calls: {bad_calls}")
     print(f"Common Issues: {', '.join(common_issues) if common_issues else 'None'}")
     print(f"Full report saved to: {output_path}")
+    print(f"\n--- Prompt Improvement Suggestions ---")
+    if ranked_issues:
+        top5 = ranked_issues[:5]
+        for issue, count in top5:
+            print(f"  [{count}x] {issue}")
+        print(f"\nFull suggestions saved to: {improvements_path}")
+    else:
+        print("  No issues detected — prompt is performing well!")
 
 if __name__ == "__main__":
     main()
