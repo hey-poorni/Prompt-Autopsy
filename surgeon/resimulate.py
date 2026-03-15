@@ -65,26 +65,26 @@ def resimulate_conversation(borrower_messages, system_prompt):
     model = genai.GenerativeModel(target_model, system_instruction=system_prompt)
     
     chat = model.start_chat(history=[])
-    simulated_transcript = []
+    simulated_transcript: list[str] = []
 
     # 1. Agent makes the first move (Opening)
     try:
         response = chat.send_message("Please start the call.")
         agent_msg = response.text.strip()
-        simulated_transcript.append(str(f"Agent: {agent_msg}"))
+        simulated_transcript.append(f"Agent: {agent_msg}") # type: ignore
     except Exception as e:
         return f"ERROR during initial agent response with {target_model}: {e}"
 
 
     # 2. Sequential turns
     for borrower_msg in borrower_messages:
-        simulated_transcript.append(str(f"Borrower: {borrower_msg}"))
+        simulated_transcript.append(f"Borrower: {borrower_msg}") # type: ignore
         try:
             response = chat.send_message(borrower_msg)
             agent_msg = response.text.strip()
-            simulated_transcript.append(str(f"Agent: {agent_msg}"))
+            simulated_transcript.append(f"Agent: {agent_msg}") # type: ignore
         except Exception as e:
-            simulated_transcript.append(str(f"ERROR during agent response to '{borrower_msg}': {e}"))
+            simulated_transcript.append(f"ERROR during agent response to '{borrower_msg}': {e}") # type: ignore
             break
             
     return "\n".join(simulated_transcript)
