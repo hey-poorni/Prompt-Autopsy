@@ -4,6 +4,7 @@ import json
 import argparse
 from pathlib import Path
 from collections import Counter
+import time
 
 # Add project root to sys.path
 _repo_root = Path(__file__).parent.parent
@@ -70,13 +71,17 @@ def main():
         eval_result = evaluate_transcript(new_transcript)
         
         # Track stats
-        total_score += eval_result["score"]
-        if eval_result["verdict"] == "good":
-            good_calls += 1
+        total_score = total_score + eval_result["score"] # type: ignore
+        if eval_result.get("verdict") == "good":
+            good_calls = good_calls + 1 # type: ignore
         else:
-            bad_calls += 1
+            bad_calls = bad_calls + 1 # type: ignore
             
-        all_issues.extend(eval_result["issues"])
+        current_issues = eval_result.get("issues", [])
+        all_issues.extend(current_issues)
+        
+        # Add a small delay to avoid hitting rate limits too quickly
+        time.sleep(1)
         
         results.append({
             "call_id": call_id,
